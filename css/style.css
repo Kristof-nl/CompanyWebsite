@@ -18,10 +18,13 @@ body{
     margin: 15px;
     color: white !important;
     font-family: 'Lato';
+    
 }
 
 .nav-link:hover{
-    background-color: #71b7d8ed;
+    text-decoration: underline rgb(59, 59, 83);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px
 }
 
 
@@ -38,4 +41,17 @@ body{
 .navbar {
     background: #349ccc;
     height: 120px;
+}
+
+.site-content {
+    height: 500px;
+    background-image: url("../img/bathroom.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+html {
+    width: 100%;
 }

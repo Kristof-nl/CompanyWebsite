@@ -3,6 +3,7 @@
 body{
     padding: 0%;
     margin: 0%;
+    background-color: rgba(247, 247, 247, 0.651);
     font-family: 'Lato';
 }
 
@@ -22,7 +23,7 @@ body{
 }
 
 .nav-link:hover{
-    text-decoration: underline rgb(59, 59, 83);
+    text-decoration: underline rgb(255, 255, 255);
     text-underline-offset: 2px;
     text-decoration-thickness: 2px
 }
@@ -48,10 +49,56 @@ body{
     background-image: url("../img/bathroom.jpg");
     background-attachment: fixed;
     background-size: cover;
-    
+}
+
+.site-contact, .site-desc {
+    font-family: 'Righteous';
+}
+
+.site-contact {
+    margin-top: 21%;
+    margin-bottom: 6%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.site-desc {
+    font-size: 18px;
+    text-align: center;
+}
+
+.site-btn1 {
+    margin-left: 26%;
+    background-color: #000000;
+    color: white;
+
+}
+
+.site-btn1:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.site-btn2 {
+    margin-left: 35px;
+    background-color: white;
     
 }
 
-html {
-    width: 100%;
+.site-btn2:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.site-btn1, .site-btn2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.home-img img {
+    height: 385px;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.company-info {
+    font-size: 19px;
 }

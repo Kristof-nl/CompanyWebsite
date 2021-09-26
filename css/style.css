@@ -124,7 +124,15 @@ body{
     margin-right: 15px;
 }
 
-.icon:hover {
-    color: whitesmoke;
+.radiator:hover {
+    background-image: url("../img/radiator-hoever.png");
 }
 
+.icon:hover {
+    color: #349ccc;
+}
+
+.activities {
+    margin-left: 50px;
+    margin-bottom: 75px;
+}

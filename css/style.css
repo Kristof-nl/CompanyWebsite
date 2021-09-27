@@ -136,3 +136,16 @@ body{
     margin-left: 50px;
     margin-bottom: 75px;
 }
+
+.service-contact {
+    background-color: #349ccc;
+    height: 185px;
+}
+
+.service-contact-btn {
+    margin-top: -15px;
+}
+
+.service-contact-btn:hover {
+    background-color: rgb(231, 231, 231);
+}

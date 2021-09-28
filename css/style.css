@@ -19,7 +19,6 @@ body{
     margin: 15px;
     color: white !important;
     font-family: 'Lato';
-    
 }
 
 .nav-link:hover{
@@ -148,4 +147,20 @@ body{
 
 .service-contact-btn:hover {
     background-color: rgb(231, 231, 231);
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.face {
+    height: 100px;
+    width: 100px;
 }

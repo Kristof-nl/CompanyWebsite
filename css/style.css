@@ -164,3 +164,7 @@ body{
     height: 100px;
     width: 100px;
 }
+
+.rating {
+    color: #349ccc;
+}

@@ -168,3 +168,14 @@ body{
 .rating {
     color: #349ccc;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+#blue {
+    background-color: #349ccc;
+    height: 5px;
+    width: 50px;
+}

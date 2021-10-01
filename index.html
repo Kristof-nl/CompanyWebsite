@@ -3,6 +3,7 @@
     <title>Merker Huistechniek</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/1837d263d8.js" crossorigin="anonymous"></script>
@@ -12,36 +13,33 @@
 
 <!--Navbar - start-->
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <img src="img/logo3.png" alt="logo" class="logo">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse"></div>
-        <div class="collapse navbar-collapse"></div>
-        <div class="collapse navbar-collapse"></div>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a href="#home" class="nav-link">About Us</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#service" class="nav-link">Service</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#opinions" class="nav-link">Opinions</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
-        
-        </nav>
-    </header>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <img src="img/logo3.png" alt="logo" class="logo">
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse"></div>
+    <div class="collapse navbar-collapse"></div>
+    <div class="collapse navbar-collapse"></div>
+    <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="#service" class="nav-link">Service</a>
+        </li>
+        <li class="nav-item">
+            <a href="#opinions" class="nav-link">Opinions</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+</header>
 
 <!--Navbar - end-->
 
@@ -466,6 +464,86 @@
     </div>
   </section>
   
+
+  <!--Contact - start--> 
+
+<section class="contact py-5" id="contact">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">Contact Form</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="contact-item d-flex">
+          <div class="icon fs-4">
+            <i class="fas fa-envelope small-icon"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Email</h3>
+            <p class="text-muted">example@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item d-flex">
+          <div class="icon fs-4">
+            <i class="fas fa-phone small-icon"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Phone</h3>
+            <p class="text-muted">0 678 897 654</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="contact-form">
+          <form action="mail.php" method="post">
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <input type="text" name="name" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+              <div class="col-lg-6 mb-4">
+                <input type="text" name="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <input type="text" name="subject" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <textarea rows="6" name="message" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <button type="submit" class="btn px-3 contact-button">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!--Contact - end--> 
+
+<footer class="footer border-top py-4">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="m0 text-center text-muted">&copy; 2021 Merker Huistechniek</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Footer - end--> 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

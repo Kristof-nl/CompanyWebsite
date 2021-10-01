@@ -28,6 +28,12 @@ body{
 }
 
 
+#navbar {
+    background: #349ccc;
+    text-align: center;
+  }
+  
+
 .menu {
     margin-left: 400px;
 }
@@ -178,4 +184,33 @@ body{
     background-color: #349ccc;
     height: 5px;
     width: 50px;
+}
+
+.small-icon {
+    margin-top: 12px;
+    color: #349ccc
+}
+
+
+.contact-button {
+    background-color: #349ccc;
+    color: white;
+    width: 140px;
+    height: 43px;
+}
+
+.contact-button:hover {
+    background-color: #59afd7;
+    color: white;
+}
+
+
+@media (max-width: 1000px) {
+
+.contact-button {
+    margin: 0 auto;
+    display: block;
+}
+
+
 }

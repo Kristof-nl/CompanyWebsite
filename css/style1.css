@@ -1,94 +1,215 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: montserrat;
-  }
-  nav{
-    background: #2785b2;
-    height: 80px;
-    width: 100%;
-  }
-  label img{
-    height: 80px;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Righteous&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(247, 247, 247, 0.651);
+    font-family: 'Lato';
+}
+
+
+.logo {
+    height: 100px;
     width: 300px;
-  }
-  nav ul{
-    float: right;
-    margin-right: 20px;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: white;
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 22px;
+    margin: 15px;
+    color: white !important;
+    font-family: 'Lato';
+}
+
+.nav-link:hover{
+    text-decoration: underline rgb(255, 255, 255);
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px
+}
+
+#navbar {
+  background: #349ccc;
+  text-align: center;
+}
+
+.menu {
+    margin-left: 400px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+    background: rgb(238, 238, 238);
+    
+}
+
+.navbar {
+    background: #349ccc;
+    height: 120px;
+}
+
+.site-content {
+    height: 500px;
+    background-image: url("../img/bathroom.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-contact, .site-desc {
+    font-family: 'Righteous';
+}
+
+.site-contact {
+    margin-top: 21%;
+    margin-bottom: 6%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.site-desc {
     font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  a.active,a:hover{
-    background: #1b9bff;
-    transition: .5s;
-  }
-  .checkbtn{
-    font-size: 30px;
+    text-align: center;
+}
+
+.site-btn1 {
+    margin-left: 26%;
+    background-color: #000000;
     color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-    margin-top: 24px;
-  }
-  #check{
-    display: none;
-  }
-  @media (max-width: 952px){
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    label img {
-        width: 230px;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #2c3e50;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover,a.active{
-      background: none;
-      color: #0082e6;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-  }
+
+}
+
+.site-btn1:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.site-btn2 {
+    margin-left: 35px;
+    background-color: white;
+    
+}
+
+.site-btn2:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.site-btn1, .site-btn2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.home-img img {
+    height: 385px;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.company-info {
+    font-size: 19px;
+}
+
+.text {
+    margin-top: 12px;
+}
+
+.title-border {
+    content: "";
+    width: 30%;
+    height: 3px;
+    display: block;
+    background: block;
+    background-color: rgb(11, 11, 14);
+    border-radius: 50%;
+    margin: 1%;
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+
+.radiator {
+    margin-right: 15px;
+}
+
+.radiator:hover {
+    background-image: url("../img/radiator-hoever.png");
+}
+
+.icon:hover {
+    color: #349ccc;
+}
+
+.activities {
+    margin-left: 50px;
+    margin-bottom: 75px;
+}
+
+.service-contact {
+    background-color: #349ccc;
+    height: 185px;
+}
+
+.service-contact-btn {
+    margin-top: -15px;
+}
+
+.service-contact-btn:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.face {
+    height: 100px;
+    width: 100px;
+}
+
+.rating {
+    color: #349ccc;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+#blue {
+    background-color: #349ccc;
+    height: 5px;
+    width: 50px;
+}
+
+.small-icon {
+    margin-top: 12px;
+    color: #349ccc
+}
 
 
- 
+.contact-button {
+    background-color: #349ccc;
+    color: white;
+    width: 140px;
+    height: 43px;
+}
+
+.contact-button:hover {
+    background-color: #59afd7;
+    color: white;
+}
+
+
+@media (max-width: 1000px) {
+
+.contact-button {
+    margin: 0 auto;
+    display: block;
+}
+
+
+}

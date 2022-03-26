@@ -3,4 +3,4 @@
 WebPage made with the help of Bootstrap.
 
 Live demo:
-https://companywebsitenl.w3spaces.com/
+https://www.hermaszewski.nl/demo/companywebsite/
